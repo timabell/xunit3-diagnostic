@@ -1,9 +1,9 @@
 namespace xunit3_diagnostic;
 
-public class UnitTest1
+public class DiagnosticTests
 {
     [Fact]
-    public void Test1()
+    public void TestDiagnosticOutput()
     {
         TestContext.Current.SendDiagnosticMessage("hello xunit3 world");
         Assert.True(true);
